@@ -26,3 +26,5 @@ if ((lado1 < (lado2 + lado3)) && (lado2 < (lado1 + lado3)) && (lado3 < (lado1 +l
 {
     Console.WriteLine("Não forma um triângulo");
 }
+Console.WriteLine("Pressione qualquer tecla para sair...");
+Console.ReadKey();
